@@ -48,7 +48,7 @@ img {
 .headingm {
   padding-left: 5vw;
   gap: 0.5em;
-  padding-top: 8.5vh;
+  padding-top: 7.5vh;
   padding-bottom: 0.3vh;
 }
 .heading {
@@ -116,6 +116,9 @@ img {
   .card {
     width: 29vw;
   }
+  .div_box {
+    height: 17vw;
+  }
 }
 @media screen and (min-width: 1440px) and (max-width: 1800px) {
   .text,
@@ -151,6 +154,9 @@ img {
   .heading {
     font-size: 37px;
   }
+  .div_box {
+    height: 17vw;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   .text,
@@ -178,6 +184,9 @@ img {
   }
   .secondary_text {
     font-size: 22px;
+  }
+  .div_box {
+    height: 16vw;
   }
 }
 @media screen and (min-width: 851px) and (max-width: 1024px) {
@@ -207,6 +216,9 @@ img {
   .project_name {
     font-size: 20px;
   }
+  .div_box {
+    height: 16vw;
+  }
 }
 @media screen and (max-width: 850px) {
   .text,
@@ -215,10 +227,11 @@ img {
     font-size: 12px;
   }
   .headingm {
-    padding-top: 7vh;
+    padding-top: 6vh;
   }
   .card {
     width: 43.4vw;
+    margin-bottom: 0;
   }
   .heading {
     font-size: 32px;
@@ -244,8 +257,9 @@ img {
     margin-bottom: 1vh;
     font-size: 20px;
   }
-  .div_box{
+  .div_box {
     font-size: 5vw;
+    height: 22vw;
   }
 }
 @media screen and (max-width: 426px) {
@@ -253,7 +267,7 @@ img {
   .copyright {
     font-size: 10px;
   }
-  .menu{
+  .menu {
     font-size: 13px;
   }
   .card {
@@ -267,6 +281,7 @@ img {
     grid-template-columns: repeat(1, max-content);
     justify-content: center;
     margin: auto;
+    padding-left: 0;
   }
   .secondary_text {
     font-size: 15px;
@@ -281,8 +296,6 @@ img {
   }
   .box {
     grid-template-columns: repeat(1, max-content);
-    margin-bottom: 2vh;
-    gap: 0;
   }
   .project_name {
     margin-top: 1vh;
@@ -294,10 +307,10 @@ img {
   }
   .menu {
     width: max-content;
-    justify-self: center;
   }
-  .div_box{
+  .div_box {
     font-size: 10vw;
+    height: 40vw;
   }
   .headingm {
     padding-top: 5vh;
